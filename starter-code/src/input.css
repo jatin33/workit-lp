@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-eucaplyptus text-lg font-bold text-center tracking-[-0.01125rem] leading-8 py-4 px-6 hover:bg-dark-purple hover:text-eucaplyptus hover:border-2 hover:border-eucaplyptus;
+  }
+
+  .btn-secondary {
+    @apply text-lg font-bold leading-8 text-center tracking-[-0.01125rem] text-white border-b-[0.1875rem] border-eucaplyptus hover:text-eucaplyptus;
+  }
+}
