@@ -11,3 +11,27 @@
     @apply text-lg font-bold leading-8 text-center tracking-[-0.01125rem] text-white border-b-[0.1875rem] border-eucaplyptus hover:text-eucaplyptus;
   }
 }
+
+.bubble::after {
+  content: "";
+  border-bottom-left-radius: 43% 23%;
+  border-bottom-right-radius: 62% 23%;
+  position: absolute;
+  bottom: 94px;
+  height: 22%;
+  width: 100%;
+  background-color: #24053e;
+  z-index: 10;
+}
+
+.light-bubble::after {
+  content: "";
+  border-bottom-left-radius: 43% 23%;
+  border-bottom-right-radius: 62% 23%;
+  position: absolute;
+  bottom: -3.5rem;
+  height: 22%;
+  width: 100%;
+  background-color: #fcf8ff;
+  z-index: -5;
+}
