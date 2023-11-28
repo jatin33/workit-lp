@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "prod": "npx tailwindcss -o ./dist/output.css --minify && cp ./src/index.html ./dist/index.html && cp -a ./assets/ ./dist",
+    "prod": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify && cp ./src/index.html ./dist/index.html && cp -a ./assets/ ./dist",
     "serve:dev": "npx live-server"
   },
   "devDependencies": {

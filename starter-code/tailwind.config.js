@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -7,16 +7,16 @@ module.exports = {
     extend: {
       colors: {
         "dark-purple": "#24053E",
-        "eucaplyptus": "#44FFA1",
+        eucaplyptus: "#44FFA1",
         "davys-grey": "#584D62",
-        "ghost-white": "#FCF8FF"
+        "ghost-white": "#FCF8FF",
       },
       fontFamily: {
-        sans: ['Manrope', ...defaultTheme.fontFamily.sans],
-        "header": ['Fraunces'],
+        sans: ["Manrope", ...defaultTheme.fontFamily.sans],
+        header: ["Fraunces"],
       },
     },
   },
   plugins: [],
-}
-
+  safelist: ['btn-primary', 'btn-secondary'],
+};
