@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/dist/output.css"
+  to = "/output.css"
+  status = 301
